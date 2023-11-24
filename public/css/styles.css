@@ -1,0 +1,256 @@
+
+*{
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   }
+header{
+   background-color: #EAC926;
+   padding-bottom: 15px;
+};
+
+#logo-barrabusqueda{
+   display: flex;
+        align-items: center;
+        width: 100vw;
+}
+#logo{
+   width: 50vw;
+}
+#logo img{
+   width: 62%;
+   padding: 10px;
+}
+#barrabusqueda{
+   width: 31vw;
+   display: flex;
+   justify-content: flex-start;
+   background-color: white;
+   padding: 5px;
+   border-radius: 5px;
+   margin-right: 5px;
+  transform: translateX(122%);
+  position: relative;
+  top: -79px;
+}
+.busqueda{
+   border: none;
+   width: 90%;
+   padding: 3px;
+   font-size: 0.65rem;
+   outline:none ;
+}
+.lupa{
+   background-color: transparent;
+   border: none;
+   margin-left: 5px;
+}
+#mano-dolar{
+   display: flex;
+   justify-content: center;
+}
+#mano-dolar p{
+   font-size: 0.85rem;
+   margin-bottom: 10px;
+}
+#mano-dolar i{
+   margin: 0 10px;
+}
+
+nav{
+   display: none;
+}
+
+.burger-menu{
+  display: block;
+   margin: auto;
+   font-size: 20px;
+   padding: 4px 10px;
+   background-color: transparent;
+   border-radius: 5px;
+   color: white;
+   border: none;
+}
+
+main{
+   background-color: #ebebeb;
+   padding-bottom: 25px;
+}
+#banner{
+   width: 100%;
+}
+#banner img{
+   width: 100%;
+   
+}
+section h3{
+   color: #666;
+   font-size: 1.5rem;
+   text-align: center;
+   padding: 40px 0;
+}
+.fa-truck, .descuento{
+   color: #39b54a;
+}
+.oferta{
+   margin-left: 15px;
+}
+.fa-truck{
+   padding: 8px;
+   border: 1px #39b54a solid ;
+   border-radius: 100%;
+}
+.envio{
+   display: flex;
+   justify-content: end;
+}
+.tarjeta-producto{
+   margin-bottom: 40px;
+}
+.producto{
+   display: flex;
+   justify-content: center;
+}
+.producto img{
+   width: 100%;
+   padding: 0 10px;
+}
+.info-precio{
+   display: inline-flex;
+   margin-bottom: 20px;
+}
+.info-producto{
+   background-color: white;
+   margin: 0 10px;
+   padding: 15px;
+}
+.descripcion{
+   display: block;
+}
+
+footer{
+   background-color: white;
+   padding: 40px 20px 10px;
+}
+.fa-credit-card, .fa-gift, .fa-user-shield{
+   color: #03264C;
+   font-size: 2rem;
+   display: flex;
+   justify-content: center;
+   margin: 10px 8px;
+}
+article h4, .info-footer, h6{
+   color: #666;
+   text-align: center;
+   margin: 3px;
+}
+h6{
+   font-weight: lighter;
+}
+.info-footer{
+   margin-bottom: 45px;
+}
+@media (min-width: 769px){
+.contenedor-header{
+   display: flex;
+   justify-content: space-around;
+   align-content: center;
+   padding-bottom: 10px;
+}
+   #logo-barrabusqueda{
+      width: 70vw;
+    }
+    #logo{
+      width: 90%;
+      padding: 10px;
+    }
+    .busqueda{
+      width: 80%;
+      font-size: 0.9rem;
+    }
+    #mano-dolar{
+      font-size: 0.9rem;
+    }
+    .lupa{
+      margin-left: 30px;
+    }
+    #mano-dolar{
+      width: 30vw;
+      align-items: center;
+      justify-content: center;
+      
+    }
+    nav{
+      display: flex;
+      justify-content: space-between;
+    }
+    li a{
+      text-decoration: none;
+      color: black;
+      justify-content: space-around;
+      margin: 10px;
+    }
+    ul{
+      list-style: none;
+            display: flex;
+            align-self: center;
+            
+    }
+    ul il{
+      padding: 5px;
+      
+    }
+    .burger-menu{
+      display: none;
+    }
+    .contenedor-cartas{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .tarjeta-producto{
+      box-shadow: 0px 0px 10px rgb(100, 100, 100);
+            width: 45%;
+            margin: 15px;
+    }
+    .producto img{
+      padding: 0;
+    }
+    .info-producto{
+      background-color: white;
+            margin: 0;
+            padding: 15px;
+    }
+    .descripcion{
+      display: block;
+    }
+
+}
+@media (min-width: 1200px){
+.contenedor-header{
+   display: flex;
+ justify-items: center
+}
+.busqueda{
+   width: 100%;
+   padding: 4px;
+}
+#mano-dolar p{
+   font-size: 1rem;
+}
+.lupa{
+   margin-right: 15px;  
+}
+ul il{
+   padding: 20px; 
+}
+.contenedor-cartas{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+.tarjeta-producto{
+   width: 22%;
+}
+}
