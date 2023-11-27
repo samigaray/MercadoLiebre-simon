@@ -12,13 +12,16 @@ app.use(express.static(publicpath));
 // Ponemos a escuchar el servidor
 const port = process.env.PORT || 3030;
 app.listen(port, () => {
-    console.log("Servidor corriendo en http://localhost:${port}")
+    console.log("Servidor corriendo en http://localhost:${{port}}")
 });
 
 // Definimos las rutas a los distintos pedidos que nuestro sitio sabe responder
 app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/home.html"))
 })
-app.get("/", (req, res) => {
-    res.sendFile(path.resolve(__dirname, "./views/resgistrate.html"))
+app.get("/registrate", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/registrate.html"))
+})
+app.get("/login", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/login.html"))
 })

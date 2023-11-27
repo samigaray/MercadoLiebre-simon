@@ -101,6 +101,7 @@ section h3{
    padding: 8px;
    border: 1px #39b54a solid ;
    border-radius: 100%;
+   
 }
 .envio{
    display: flex;
@@ -109,6 +110,15 @@ section h3{
 .tarjeta-producto{
    margin-bottom: 40px;
    
+}
+.tarjeta-producto{
+   transition: transform 0.3s;
+}
+.contenedor-cartas :hover .fa-truck{
+   transform: rotate(-90deg);
+}
+.tarjeta-producto :hover{
+   transition: scale(1.1);
 }
 
 
