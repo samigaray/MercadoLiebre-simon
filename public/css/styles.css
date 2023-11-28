@@ -159,7 +159,7 @@ fieldset{
    font-weight: bold;
         margin: 0 0 10px 5px;
 }
-#dato-personales input, #contraseña input{
+.dato-personales input, #contraseña input{
    padding: 8px;
    border: none;
    border-radius: 5px;
