@@ -143,6 +143,54 @@ section h3{
    display: block;
 }
 
+
+.formulario-contenedor{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding-top: 50px;
+   width: 100%;
+}
+fieldset{
+   border: none;
+   margin-bottom: 20px;
+}
+#dato-intereses legend, fieldset legend, #contraseña label, .datos-personales label{
+   font-weight: bold;
+        margin: 0 0 10px 5px;
+}
+#dato-personales input, #contraseña input{
+   padding: 8px;
+   border: none;
+   border-radius: 5px;
+   margin-bottom: 15px;
+   outline-color: #EAC926;
+}
+#dato-personales,#contraseña {
+   display: flex;
+   flex-direction: column; 
+}
+#dato-intereses article{
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;   
+}
+#dato-intereses input,#datos-usuarios input,#foto-usuario{
+   margin: 0 30px;
+}
+.formulario-contenedor a{
+   text-decoration: none; 
+}
+.formulario-contenedor button{
+   background-color: #03264C;
+   color: white;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   width: 100%;
+   margin-bottom: 20px;
+}
+
 footer{
    background-color: white;
    padding: 40px 20px 10px;
