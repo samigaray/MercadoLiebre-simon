@@ -166,7 +166,7 @@ fieldset{
    margin-bottom: 15px;
    outline-color: #EAC926;
 }
-#dato-personales,#contraseña {
+.datos-personaless,#contraseña {
    display: flex;
    flex-direction: column; 
 }
