@@ -189,6 +189,11 @@ fieldset{
    border-radius: 5px;
    width: 100%;
    margin-bottom: 20px;
+   cursor: pointer;
+   transition: 0.5s;
+}
+button:hover{
+   background-color: #0022AA;
 }
 .dato-sesion legend{
    text-align: center;
